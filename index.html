@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- displays site properly based on user's device -->
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor  |  Newsletter sign-up form with success message</title>
+
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style/reset.css">
+  <script src="./js/index.js" defer></script>
+  
+</head>
+<body>
+  
+  <main>
+    <div class="left">
+      <header class="title">
+        <h1>Stay Updated!</h1>
+        <p>Join 60,000 + product managers receiving monthly updates on:</p>
+      </header>
+
+      <div class="list-advertised">
+        <ul>
+          <li>
+            <input type="checkbox" class="round-checkbox" id="checkbox1" checked>
+            <label for="checkbox1" class="round-label"></label>
+            Product discovery and building what matters
+          </li>
+
+          <li>
+            <input type="checkbox" class="round-checkbox" id="checkbox2" checked>
+            <label for="checkbox2" class="round-label"></label>
+            Measuring to ensure updates are a success
+          </li>
+
+          <li>
+            <input type="checkbox" class="round-checkbox" id="checkbox3" checked>
+            <label for="checkbox3" class="round-label"></label>
+            And much more!
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <form action="#" method="get">
+          <div class="title-container">
+            <label for="email">Email Adress</label>
+            <h6 class="error-msg"></h6>
+          </div>
+          <input id="email" type="email" placeholder="email@company.com" name="email-input">
+        <button class="btn submit">Subscribe to monthly Newsletter</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="illustration-signup">
+      <img src="./assets/images/illustration-sign-up-desktop.svg" alt="svg sign-up image">
+    </div>
+  </main>
+
+  <!-- Thanks for subscribing panel -->
+
+  <div class="success-state panel">
+    <ul>
+      <li>
+        <input type="checkbox" class="round-checkbox" id="checkbox3" checked>
+        <label for="checkbox3" class="round-label"></label>
+      </li>
+    </ul>
+    <h2>Thanks for subscribing!</h2>
+    <p>A confirmation email has been sent to bartuakdogan8@gmail.com Please open it and click the button inside to confirm your subscription</p>
+    <button class="btn dismiss">Dismiss Message</button>
+  </div>
+
+</body>
+</html>
